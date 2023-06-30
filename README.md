@@ -1,5 +1,11 @@
 <h1 align="center">CopyRaw</h1>
 
+
+
+https://github.com/TheoIsDumb/CopyRaw/assets/118801625/6b7a2211-5798-428e-8d63-e073b74f11ea
+
+
+
 An Inkscape Extension I made for myself.
 
 Copies raw SVG directly instead of saving it as an optimized SVG, then opening it in a text editor, Ctrl-a + Ctrl-c, you know all of that stuff. 
