@@ -16,10 +16,14 @@ class CopyRaw(inkex.Effect):
 
     def effect(self):
         stuff = []
-        for elem in self.svg.selection:
-            stuff.append(elem.tostring().decode())
 
-        inkex.utils.debug(self.template() + ' '.join(stuff[::-1]) + "</svg>")
+        if len(self.svg.selection) == 0:
+            inkex.errormsg(_("None selected."))
+        else:
+            for elem in self.svg.selection:
+                stuff.append(elem.tostring().decode())
+
+            inkex.utils.debug(self.template() + ' '.join(stuff[::-1]) + "</svg>")
 
 if __name__ == '__main__':
     CopyRaw().run()
