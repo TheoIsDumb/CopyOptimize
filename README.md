@@ -5,6 +5,8 @@
 https://github.com/TheoIsDumb/CopyRaw/assets/118801625/6b7a2211-5798-428e-8d63-e073b74f11ea
 
 
+(dialog box looks like an error box due to inkex.utils.debug() being used)
+
 
 An Inkscape Extension I made for myself.
 
@@ -14,7 +16,7 @@ Copies raw SVG directly instead of saving it as an optimized SVG, then opening i
 
 1. Select paths/strokes/whatever.
 2. Go to `Extensions -> Custom -> CopyRaw.`
-3. Copy the SVG text from the box that pops up. (index.utils.debug() for now)
+3. Copy the SVG text from the box that pops up. (inkex.utils.debug())
 
 ## Installation
 
