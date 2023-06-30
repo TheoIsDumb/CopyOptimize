@@ -10,7 +10,7 @@ Copies raw SVG directly instead of saving it as an optimized SVG, then opening i
 2. Go to `Extensions -> Custom -> CopyRaw.`
 3. Copy the SVG text from the box that pops up. (index.utils.debug() for now)
 
-[protip](protip.webp)
+![protip](protip.webp)
 
 > ProTip!
 >
