@@ -3,7 +3,8 @@
 
 
 
-https://github.com/TheoIsDumb/CopyRaw/assets/118801625/6b7a2211-5798-428e-8d63-e073b74f11ea
+https://github.com/TheoIsDumb/CopyOptimize/assets/118801625/928c9865-571c-4f4f-9d8d-25a7e559cb7a
+
 
 
 (dialog box looks like an error box due to inkex.utils.debug() being used)
