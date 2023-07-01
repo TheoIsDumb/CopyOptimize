@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
-  <name>CopyRaw</name>
-  <id>org.theoisdumb.CopyRaw</id>
+  <name>CopyOptimize</name>
+  <id>org.theoisdumb.CopyOptimize</id>
   <effect>
     <object-type>all</object-type>
     <effects-menu>
