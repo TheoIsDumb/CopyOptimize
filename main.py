@@ -11,8 +11,9 @@ class CopyRaw(inkex.Effect):
         width = self.document.getroot().get('width')
         height = self.document.getroot().get('height')
         viewbox = self.document.getroot().get('viewBox')
+        defs = self.document.getroot().defs.tostring().decode()
 
-        return f'<svg width="{width}" height="{height}" version="1.1" viewBox="{viewbox}" xmlns="http://www.w3.org/2000/svg">'
+        return f'<svg width="{width}" height="{height}" version="1.1" viewBox="{viewbox}" xmlns="http://www.w3.org/2000/svg">' + defs
 
     def effect(self):
         stuff = []
