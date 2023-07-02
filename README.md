@@ -27,6 +27,8 @@ Scour flags:
 7 --shorten-ids
 ```
 
+NOTE: `gtk` branch has a version of CopyOptimize that displays the optimized SVG in a GTK3 window. (Requires `python-gobject` and `gtk3`)
+
 ## Why
 
 Everytime I have to make an SVG to use on websites or something, I have to go through this tiring process of saving it as an optimized SVG, opening it in a text editor, copying it and pasting it. I make one change and I have to do it all over again.
